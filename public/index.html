@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL Shaders with Multi-threading, Promises, WebSockets and CORS Integration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ui-container">
+        <h1>Enter the numbers for the calculation</h1>
+        <div>
+            <input type="number" id="factorialInput" placeholder="Enter a number" />
+            <button id="factorialButton">Start Factorial Task</button>
+        </div>
+        <div>
+            <input type="number" id="expensiveInput" placeholder="Enter a number" />
+            <button id="expensiveButton">Start Square Root Sum Task</button>
+        </div>
+        <div>
+            <input type="number" id="primeInput" placeholder="Enter a number" />
+            <button id="primeButton">Start Prime Numbers Task</button>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+    <div class="canvas-container">
+        <canvas id="webglCanvas" width="500" height="500"></canvas>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
